@@ -1,0 +1,124 @@
+/* 搜索区域 */
+.header {
+    width: 100%;
+    height: 157px;
+    box-shadow: 0 2px 27px 0 rgb(0 0 0 / 10%);
+}
+
+.header-content {
+    width: 1190px;
+    height: 157px;
+    margin: 0 auto;
+}
+
+/* logo区域 */
+.header-content-left {
+    float: left;
+    width: 295px;
+    height: 157px;
+}
+
+.header-content-left h1 a {
+    font-size: 0px;
+    overflow: hidden;
+}
+
+.header-content-left h1 a img {
+    width: 126px;
+    height: 46px;
+    padding: 28px 60px 40px 0px;
+}
+
+/* 搜索区域 */
+.header-content-center {
+    float: left;
+    width: 560px;
+    height: 40px;
+    margin-top: 28px;
+}
+
+.header-content-center input {
+    width: 468px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    text-indent: 1em;
+    font-size: 14px;
+}
+
+.header-content-center button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-left-width: 0px;
+    background: #FFC300;
+    margin-left: -5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.city {
+    width: 100%;
+    height: 110px;
+}
+
+.city-center {
+    width: 1190px;
+    height: 50px;
+}
+
+.city-center-content {
+    width: 1190px;
+    height: 50px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 700;
+    padding: 58px 50px 50px 233px;
+}
+
+#addr-show {
+    width: 210px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+#prov {
+    width: 95px;
+    height: 33px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+#city {
+    width: 95px;
+    height: 33px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+#county {
+    width: 95px;
+    height: 33px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 60px;
+    height: 32px;
+    margin: 0 20px;
+    background: #FFC300;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#commit {
+    width: 60px;
+    height: 32px;
+    background: #FFC300;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+}

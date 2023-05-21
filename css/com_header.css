@@ -1,0 +1,289 @@
+/* 头部导航条 */
+.nav {
+    width: 100%;
+    height: 40px;
+    background: #f8f8f8;
+}
+
+.nav-content {
+    width: 1190px;
+    height: 40px;
+    margin: 0 auto;
+    background: #f8f8f8;
+}
+
+.nav-content-left {
+    float: left;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+}
+
+.nav-content-left a:nth-child(3) {
+    border: 1px solid #ccc;
+}
+
+.nav-content-left a:nth-child(5) {
+    color: #FE8C00;
+    margin-left: 15px;
+}
+
+.fontsize {
+    font-size: 12px;
+}
+
+/*导航条右侧 我的美团 手机APP 商家中心 美团规则 网站导航*/
+.nav-content-right {
+    width: 480px;
+    height: 40px;
+    float: right;
+    font-size: 12px;
+    color: #999;
+    line-height: 40px;
+    position: relative;
+}
+
+/*基础样式处理*/
+.nav-content-right ul li dl dd a {
+    border: none;
+    height: 35px;
+}
+
+.nav-content-right ul li dl dd a:hover {
+    color: #FF8200;
+}
+
+.displaynone {
+    display: none;
+}
+
+.displayblock {
+    display: block;
+}
+
+/* 
+我的美团手机APP商家中心美团规则网站导航 布局样式*/
+.nav-content-right ul li a {
+    width: 90px;
+    height: 40px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+/*我的美团下拉列表框样式*/
+.nav-content-right ul li .mygroup {
+    width: 88px;
+    height: 140px;
+    background: #fff;
+    float: left;
+    position: absolute;
+    top: 40px;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+/*我的美团显示隐藏效果添加*/
+.nav-content-right ul li .overstyle {
+    width: 88px;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+/*商家中心样式*/
+.store-center {
+    width: 108px;
+    height: 275px;
+    background: #fff;
+    float: left;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+.nav-content-right ul li .store-center a {
+    width: 110px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+#scenter {
+    width: 110px;
+}
+
+/*商家中心显示隐藏效果添加*/
+.storestyle {
+    width: 108px !important;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+/*规则下拉*/
+.rulecenter {
+    width: 88px;
+    height: 100px;
+    background: #fff;
+    float: left;
+    position: absolute;
+    top: 40px;
+    left: 290px;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+.nav-content-right ul li .rulecenter a {
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*规则中心显示隐藏效果添加*/
+.rulestyle {
+    width: 88px !important;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+/*网站导航下拉*/
+.groupnavlist {
+    width: 1180px;
+    height: 310px;
+    background: #fff;
+    float: left;
+    position: absolute;
+    top: 40px;
+    right: 8px;
+    z-index: 5;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}
+
+.groupnavlist dd {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.groupnavlist dd div {
+    width: 80px;
+    height: 35px;
+    padding-left: 80px;
+}
+
+.groupnavlist dd div a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.groupnavlist dd span {
+    width: 60px;
+    height: 35px;
+    float: left;
+    padding-left: 20px;
+    display: block;
+}
+
+.groupnavlist dd span:hover {
+    color: #FF8200;
+    cursor: pointer;
+}
+
+.groupnavlist dd:nth-child(2) {
+    display: block;
+    width: 180px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.groupnavlist dd:nth-child(2) span {
+    width: 50px;
+    height: 35px;
+    float: left;
+    padding-left: 20px;
+    display: block;
+    text-align: center;
+}
+
+.groupnavlist dd:nth-child(2) div {
+    padding-left: 40px;
+}
+
+.groupnavlist dd:nth-child(3) {
+    display: block;
+    width: 120px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+.groupnavlist dd:nth-child(3) span {
+    width: 100px;
+    height: 35px;
+    float: left;
+    padding-left: 20px;
+    display: block;
+    text-align: center;
+}
+
+.groupnavlist dd:nth-child(3) div {
+    padding-left: 25px;
+}
+
+.groupnavlist dd:nth-child(4) {
+    display: block;
+    width: 470px;
+    height: 280px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.groupnavlist dd:nth-child(4) span {
+    width: 40px;
+    height: 35px;
+    float: left;
+    padding-left: 40px;
+    margin-top: 70px;
+    display: block;
+    text-align: center;
+}
+
+.groupnavlist dd:nth-child(4) div {
+    padding-left: 150px;
+}
+
+.groupnavlist dd:nth-child(4) span img {
+    width: 50px;
+    height: 50px;
+}
+
+/*导航栏隐藏效果添加*/
+.navstyle {
+    width: 88px;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 10%);
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>注册 | 美团网</title>
+
+    <meta name="description" content="北京美团网精选北京美食餐厅,酒店预订,电影票,旅游景点,外卖订餐,北京团购信息,您可查询商家评价店铺信息。北京生活,下载美团官方APP ,吃喝玩乐1折起。">
+    <meta name="keywords" content="北京美食,北京酒店,北京团购">
+    <!-- title前面的小图标 -->
+    <link rel="icon" type="image/icon" href="favicon.ico">
+    <!-- 基础样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" type="text/css" href="./font/icomoon/style.css">
+    <!-- 头部公共文件样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/com_header.css">
+    <!-- 注册样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/register.css">
+    <!-- 底部公共样式 -->
+    <link rel="stylesheet" type="text/css" href="./css/com_footer.css">
+    <!-- 注册页面js -->
+    <script src="./js/register.js"></script>
+</head>
+
+<body>
+    <!-- 头部导航条 -->
+    <div class="nav">
+        <div class="nav-content">
+            <!-- 导航条左侧 logo -->
+            <div class="nav-content-left">
+                <h1>
+                    <a href="index.html" title="美团">
+                        <img src="./images/logo.png" />美团
+                    </a>
+                </h1>
+            </div>
+            <!-- 导航条右侧 -->
+            <div class="nav-content-right">
+                已有美团账号？
+                <a href="./login.html">
+                    登录
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 注册表单区域 -->
+    <div class="register">
+        <div class="register-content">
+            <div class="register-content-form">
+                <!-- <form action="#" method="get"> -->
+                手机号码 <input type="text" id="phone">
+                <span class="display-none"></span>
+                <br />
+                <button>免费获取短信动态码</button>
+                <span class="display-none"></span>
+                <br />
+                短信验证 <input type="text" id="code">
+                <span class="display-none"></span>
+                <br />
+                创建密码 <input type="password" id="password">
+                <span class="display-none"></span>
+                <br />
+                <div id="tips">
+                    <b>弱</b>
+                    <b>中</b>
+                    <b>强</b>
+                </div>
+                确认密码 <input type="password" id="repeatPwd">
+                <span class="display-none"></span>
+                <br />
+                <input type="submit" id="formSubmit" value="同意以下协议并注册" />
+                <br />
+                <br />
+                <a href="#">《美团用户协议》</a>
+                <a href="#">《美团隐私政策》</a>
+                <!-- </form> -->
+            </div>
+            <div class="register-content-img">
+                <img src="./images/register.png" alt="zhucetupian">
+            </div>
+        </div>
+    </div>
+    <!-- 版权信息 -->
+    <div class="copyinfo" style="border-top: 1px solid #D8D8D8;">
+        <div class="copyinfo-content" style="padding-top: 40px;">
+            <div class="copyinfo-content-left">
+                <p>
+                    ©2022 美团版权所有
+                    <a href="#">京ICP证070791号</a>
+                    <a href="#">京ICP备10211739号-1</a>
+                </p>
+                <p>
+                    <a href="#">广播电视节目制作经营许可证（京）字第03889号</a>
+                </p>
+                <p>
+                    <a href="#">药品医疗器械网络信息服务备案 （京）网药械信息备字（2022）第00228号</a>
+                </p>
+                <p>
+                    <a href="#">医疗器械网络交易服务第三方平台备案：（京）网械平台备字[2018]第00004号</a>
+                </p>
+                <p>
+                    <a href="#">平台EDI许可证</a>
+                </p>
+            </div>
+            <div class="copyinfo-content-right">
+                <a href="#">
+                    <img src="./images/jh.png" alt="">
+                    京公网安备 11000002002052号
+                </a>
+                <a href="#">
+                    <img src="./images/jh3.png" alt="">
+                    北京三快科技有限公司
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

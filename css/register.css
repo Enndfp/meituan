@@ -1,0 +1,168 @@
+body {
+    background-color: #fff !important;
+}
+
+.nav {
+    height: 100px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.nav-content {
+    height: 100px;
+}
+
+.nav-content-left h1 a {
+    font-size: 0px;
+}
+
+.nav-content-left h1 a img {
+    width: 126px;
+    height: 46px;
+    padding: 25px 0px 25px 40px;
+}
+
+.nav-content-right {
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.nav-content-right a {
+    width: 45px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #FFD000;
+    color: #000;
+    float: right;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.register {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.register-content {
+    width: 1190px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.register-content-form {
+    width: 550px;
+    height: 480px;
+    margin-left: 70px;
+    float: left;
+}
+
+.register-content-form input {
+    width: 260px;
+    height: 36px;
+    border: 1px solid #aaa;
+    margin: 20px 10px;
+}
+
+.register-content-form button {
+    width: 180px;
+    height: 20px;
+    border: 1px solid #aaa;
+    margin-left: 78px;
+    color: #FE8C00;
+}
+
+#formSubmit {
+    width: 180px;
+    height: 40px;
+    margin-left: 78px;
+    border: 1px solid #FFBE00;
+    background-color: #FFBE00;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.register-content-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    height: 480px;
+}
+
+.register-content-img img {
+    width: 93%;
+    height: 93%;
+}
+
+.register-content-form a {
+    color: #FE8C00;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 78px;
+}
+
+.register-content-form a:last-child {
+    padding-left: 0px;
+}
+
+/*字体图标的颜色改变*/
+.icon-times-circle {
+    color: red;
+}
+
+.icon-check-circle {
+    color: green;
+}
+
+/*禁用谷歌的默认选择效果*/
+input,
+textarea:focus {
+    outline: none;
+}
+
+/*控制提示文字的显示隐藏*/
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+#tips {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 260px;
+    color: #fff;
+    text-align: center;
+    margin-left: 78px;
+}
+
+#tips b {
+    float: left;
+    width: 32%;
+    height: 20px;
+    color: white;
+    background: #EEEEEE;
+    line-height: 20px;
+    text-align: center;
+}
+
+#tips b:nth-child(2) {
+    margin: 0 5px;
+}
+
+#formSubmit:hover {
+    cursor: pointer;
+}
